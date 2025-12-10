@@ -1,6 +1,6 @@
-# ⚡ PowerFlow: Marketing ROI Analytics with dbt & Snowflake
+# Marketing ROI Modeling & Performance Analysis (PowerFlow Case Study)
 
-## A dbt Cloud project for modeling, cleaning & analyzing multi-source marketing data to calculate user-level ROI in Snowflake
+## A modular dbt Cloud pipeline in Snowflake to integrate marketing and user data for user-level ROI analysis
 
 ---
 
@@ -240,9 +240,11 @@ The following Directed Acyclic Graph (DAG) shows the full lineage of models with
 from raw sources and seeds to final analytical tables.  
 It highlights the clear separation between staging, intermediate, and mart layers, following dbt’s modular design principles.
 
+<!-- markdownlint-disable MD033 -->
 <p align="center">
   <img src="./docs/dag_powerflow.png" alt="PowerFlow dbt DAG" width="85%" style="border: 1px solid #ccc; border-radius: 6px;"/>
 </p>
+<!-- markdownlint-enable MD033 -->
 
 *Visualization generated from dbt Cloud — each node represents a model or data source in Snowflake.*
 
@@ -278,4 +280,4 @@ These ideas outline how the PowerFlow project could evolve into a production-gra
 ## 👨‍💻 Author
 
 **Thomas Jortzig**  
-Powerflow-Project | 10.2025
+Marketing ROI Modeling & Performance Analysis – PowerFlow Case Study (10/2025)
