@@ -1,12 +1,13 @@
 # Marketing ROI Modeling & Performance Analysis (PowerFlow Case Study)
 
-## A modular dbt Cloud pipeline in Snowflake to integrate marketing and user data for user-level ROI analysis
+**Modeling user-level ROI and evaluating channel efficiency through unified marketing and in-app behavioral data**  
+*A modular dbt Cloud pipeline in Snowflake integrating attribution sources, transaction data, and LTV logic into a production-ready ROI data model.*
 
 ---
 
 ## 📘 Project Overview
 
-This portfolio project simulates a **Business Intelligence case study** for the fictional fitness app **PowerFlow**, focusing on marketing ROI analysis and modern data modeling using **dbt Cloud** and **Snowflake**.
+This portfolio project simulates a BI case study for the fictional fitness app PowerFlow, focusing on user-level ROI modeling and channel performance analysis using dbt Cloud and Snowflake.
 
 ### 💼 Business Context
 
