@@ -39,7 +39,7 @@ All transformations are version-controlled via GitHub and orchestrated in dbt Cl
 | **Snowflake** | Cloud data warehouse used as target database |
 | **GitHub** | Version control for all dbt models and documentation |
 | **dbt Packages** | `dbt_utils`, `codegen` for testing and documentation support |
-| **CSV Seeds** | `campaign_cost.csv` used to bring static marketing spend data into the pipeline |
+| **dbt Seeds** | `campaign_cost.csv` used to bring static marketing spend data into the pipeline |
 
 ---
 
